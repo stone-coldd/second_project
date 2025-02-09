@@ -1,0 +1,8 @@
+name: first project
+on: push
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:
+      - name: first test
+        run: echo "HEllo"
